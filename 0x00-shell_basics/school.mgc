@@ -1,14 +1,11 @@
 #!/bin/bash
+
 0 string SCHOOL School data
 
 !:mime School
 
 file --magic-file=magic input 
 
-input: School data
+file -C -m my-magic
 
-file --magic-file=magic --compile
-
-file --magic-file=magic.mgc input 
-
-input: School data
+file -C-m school.mgc *
