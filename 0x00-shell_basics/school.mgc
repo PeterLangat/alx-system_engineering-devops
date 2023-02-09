@@ -1,5 +1,6 @@
 #!/bin/bash
 0	string School School data
-!:mime text/School
+!:mime School
 file -C -m school.mgc
 file --mime-type -m school.mgc *
+file -m  money.mgc *
